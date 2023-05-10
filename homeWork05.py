@@ -1,7 +1,7 @@
 # A = 3; B = 5 -> 243 (3⁵)
 #     A = 2; B = 3 -> 8 
 
-'''
+
 a = int(input('A = '))
 b = int(input('B = '))
 def cub_a(a, b):
@@ -9,7 +9,7 @@ def cub_a(a, b):
         return a
     return a ** b
 print(cub_a(a, b))
-'''
+
 # AAAABBBCCXYZDDDDEEEFFFAAAAAABBBB
 # BBBBBBBBBBBBBBBBBBBBBBBB
 # Нужно написать функцию
@@ -31,6 +31,7 @@ def rle(a):
             b += final
             
     print(*b)
+
 rle(a) 
 
     
